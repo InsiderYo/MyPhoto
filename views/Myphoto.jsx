@@ -39,7 +39,7 @@ function Myphoto({ photoId, photos, userAlbum }) {
               <img src={`${el.addres}`} alt="" className="picPh" />
               <h5 className="card-title-photo">{el.comment}</h5>
               <button id={el.id} type="button" className="btnDelPh text-light">
-                <i class="fa-solid fa-trash-can"></i>
+                <i className="fa-solid fa-trash-can"></i>
               </button>
             </div>
           </div>
